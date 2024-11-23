@@ -1,7 +1,7 @@
 package POJO;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.*;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,5 +20,6 @@ public class User {
 	private String email;
 	private String gender;
 	private String status;
+	
 
 }
